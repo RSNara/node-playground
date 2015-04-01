@@ -5,12 +5,9 @@ By default, all tests require a `.js` extension.
 
 ## Running tests
 ```bash
-#es5
+# es6 (transpiled by babel)
 npm test
 
-#es6 (transpiled by babel)
-npm run es6
-```
 
 ## Expectation setup
 All the expectations are handled by `chai.js`. The setup is located in `setup-globals.js`.

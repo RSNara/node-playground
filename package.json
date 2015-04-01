@@ -12,7 +12,6 @@
     "nodemon": "^1.3.7"
   },
   "scripts": {
-    "es6": "make test-es6",
     "test": "make test"
   }
 }

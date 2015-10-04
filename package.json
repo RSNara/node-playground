@@ -13,6 +13,7 @@
     "nodemon": "^1.4.1"
   },
   "scripts": {
-    "test": "make test"
+    "test": "mocha --require ./configure tests/**/*.js  || true",
+    "tests:watch": "nodemon --quiet --exec 'npm test'"
   }
 }

@@ -3,5 +3,5 @@
 */
 
 it('should be ok', () => {
-  expect(10).to.equal(101);
+  expect(10).to.equal(10);
 });

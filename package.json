@@ -1,5 +1,5 @@
 {
-  "name": "js-playground",
+  "name": "node-playground",
   "version": "0.4.0",
   "description": "A playground for learning node.",
   "main": "index.js",

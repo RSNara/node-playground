@@ -1,7 +1,7 @@
 # Learn JavaScript using (B|T)DD!
 This is a simple [mocha](https://github.com/mochajs/mocha) environment that runs  all specs in the `/specs` folder. Each file is transpiled from `ES2015` + some `ES2016` to `ES5` using [babel](https://github.com/babel/babel). An `ES2015` polyfill is also provided using [babel-polyfill](https://babeljs.io/docs/usage/polyfill/).
 
-## Running specs
+## Running tests
 The `specs:watch` task below re-triggers the test run only when an **existing** spec file is modified.
 
 ```bash
@@ -9,7 +9,7 @@ The `specs:watch` task below re-triggers the test run only when an **existing** 
 > npm run specs:watch
 ```
 
-## Environment
+## Test environment
 The test environment tries to mimic the browser using [jsdom](https://github.com/tmpvar/jsdom). This means that you can even run your [react](https://github.com/facebook/react) component specs here! Just remember to install the [react babel preset](http://babeljs.io/docs/plugins/preset-react/).
 
 ## Expectation setup

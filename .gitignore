@@ -1,3 +1,4 @@
 node_modules/
-tests/*
-!tests/hello.js
+specs/*
+!specs/hello.js
+npm-debug.log
